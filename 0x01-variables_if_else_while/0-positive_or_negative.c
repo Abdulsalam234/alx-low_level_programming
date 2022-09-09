@@ -13,17 +13,14 @@ int main(void)
 if (n > 0)
 {
 	return ("is positive");
-
 }
 else if (n == 0)
-
 {
 	return ("is zero");
-
 }
-else
-
+else if (n < 0)
 {
 	return ("is negative");
 }
+	return (0);
 }
