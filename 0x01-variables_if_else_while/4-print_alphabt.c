@@ -16,11 +16,11 @@ int main(void)
 	second = 'q';
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
 	if (alphabet == first || alphabet == second)
-{
 		continue;
-		putchar(alphabet);
-}
+	}
+	putchar(alphabet);
 	putchar('\n');
 	return (0);
 }
