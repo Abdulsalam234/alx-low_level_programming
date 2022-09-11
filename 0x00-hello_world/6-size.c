@@ -14,7 +14,7 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("Size of a char: %cbytes\n", sizeof(a));
+	printf("Size of a char: %zubytes\n", sizeof(a));
 	printf("Size of a int: %dbytes\n",sizeof(b));
 	printf("Size of a long int: %ldbytes\n",sizeof(c));
 	printf("Size of a long long int: %lldbytes\n",sizeof(d));
