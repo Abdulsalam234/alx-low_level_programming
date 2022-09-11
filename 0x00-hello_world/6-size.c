@@ -15,9 +15,9 @@ int main(void)
 	float e;
 
 	printf("Size of a char: %zubytes\n", sizeof(a));
-	printf("Size of a int: %dbytes\n",sizeof(b));
-	printf("Size of a long int: %ldbytes\n",sizeof(c));
-	printf("Size of a long long int: %lldbytes\n",sizeof(d));
-	printf("Size of a float: %zubytes\n",sizeof(e));
+	printf("Size of a int: %zubytes\n", sizeof(b));
+	printf("Size of a long int: %zubytes\n", sizeof(c));
+	printf("Size of a long long int: %zubytes\n", sizeof(d));
+	printf("Size of a float: %zubytes\n", sizeof(e));
 	return (0);
 }
