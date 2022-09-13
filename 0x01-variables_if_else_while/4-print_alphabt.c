@@ -19,8 +19,8 @@ int main(void)
 	{
 	if (alphabet == first || alphabet == second)
 		continue;
-	}
 	putchar(alphabet);
+	}
 	putchar('\n');
 	return (0);
 }
