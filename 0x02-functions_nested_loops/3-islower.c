@@ -1,8 +1,8 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * int _islower - Checks lowercase letter
- *
+ * _islower - Checks lowercase letter
+ * @c:character
  * Return: Always 0.
  */
 int _islower(int c)
@@ -11,6 +11,5 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	
 		return (0);
 }
