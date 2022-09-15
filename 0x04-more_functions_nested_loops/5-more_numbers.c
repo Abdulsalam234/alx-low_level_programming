@@ -1,26 +1,23 @@
 #include "main.h"
 
 /**
-  * print_sign - Prints the sign of a number
-  * @n: The number to be checked
-  *
-  * Return: 1 for positive num, -1 for negative num or zero for anything else
-  */
-int print_sign(int n)
+   * more_numbers - a function that prints 10 times the numbers, from 0 to 14,
+   * followed by a new line.
+   * Return: Always 0
+ */
+void more_numbers(void)
 {
-	if (n > 0)
+	int i, j = 0;
+
+	for (; j < 10; j++)
 	{
-		_putchar(43);
-		return (1);
-	}
-	else if (n < 0)
-	{
-		_putchar(45);
-		return (-1);
-	}
-	else
-	{
-		_putchar(48);
-		return (0);
+		for (i = 0; i <= 14; i++)
+		{
+			if (i > 9)
+				_putchar(i / 10 + '0');
+
+			_putchar(i % 10 + '0');
+		}
+		_putchar('\n');
 	}
 }
