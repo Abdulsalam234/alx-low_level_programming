@@ -1,6 +1,12 @@
 #include "main.h"
-
-
+/**
+ * _strncpy - String copy function
+ * @dest: Destination
+ * @src: Source
+ * @n: No of times
+ *
+ * Return: Prints @dest
+ **/
 
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -11,7 +17,7 @@ char *_strncpy(char *dest, char *src, int n)
 		b++;
 	}
 
-	while (a < n && src [a])
+	while (a < n && src[a])
 	{
 		dest[a] = src[a];
 		a++;
