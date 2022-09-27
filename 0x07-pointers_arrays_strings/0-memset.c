@@ -9,7 +9,7 @@
  *Return: Prints the memory address
  **/
 
-void *_memset(void *s, int b, size_t n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
