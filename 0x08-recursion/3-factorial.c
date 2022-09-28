@@ -8,7 +8,7 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int factorial(int n)
+unsigned int factorial(unsigned int n)
 {
 	if (n <= 1)
 	{
