@@ -33,5 +33,5 @@ int sqrt_two(int a, int b)
  **/
 int _sqrt_recursion(int n)
 {
-	return (sqrt2(n, 1));
+	return (sqrt_two(n, 1));
 }
