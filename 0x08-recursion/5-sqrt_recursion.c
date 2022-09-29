@@ -20,7 +20,7 @@ int sqrt_two(int a, int b)
 	}
 	else
 	{
-		return (sqrt2(a, b + 1));
+		return (sqrt_two(a, b + 1));
 	}
 }
 
