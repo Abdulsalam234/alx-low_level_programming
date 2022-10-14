@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * sum_them_all - Entry 
+ * sum_them_all - Entry
  * @n: variadic inputs
  * Return: sum
  **/
